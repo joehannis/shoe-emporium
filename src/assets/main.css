@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background-color: #0fcf78;
+  border-radius: 2%;
+  margin-bottom: 2%;
+}
+
+#app {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.centered-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-height: 2vh;
+}
+
+.title {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 50%;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 9%;
+  width: 95%;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 1%;
+  border-radius: 4px;
+}
+
+.filters-counter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 1%;
+  border-radius: 4px;
+  margin-right: 0.7vw;
+}
+
+.brand-selecter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.brand-element {
+  padding: 10px;
+}
+
+.no-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.model,
+.color,
+.price {
+  padding: 10px;
+}
+
+.product-info {
+  margin: 0 auto;
+}
+
+.product-image {
+  order: 0;
+  width: 30%;
+  height: auto;
+}
+
+.product-name {
+  order: 1;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.product-price {
+  order: 2;
+  font-size: 18px;
+  align-self: center;
+  position: relative;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product-grid-item {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: calc(33.33%);
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: auto;
+  transition: all 0.2s;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s;
+}
