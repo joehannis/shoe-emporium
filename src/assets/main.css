@@ -55,6 +55,10 @@
   width: 95%;
 }
 
+.clear-sort-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .filters {
   display: flex;
   flex-direction: row;

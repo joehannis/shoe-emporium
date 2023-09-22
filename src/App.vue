@@ -9,6 +9,8 @@
           :stock-statuses="stockStatuses"
           @selected-stock-status="handleStockStatusSelected"
         />
+
+        <button class="clear-sort-button" @click="clearAndSort">Sort All By Relevance</button>
         <span class="filters-counter">{{ counter }} products</span>
       </p>
     </div>
@@ -71,6 +73,10 @@ export default {
     handleStockStatusSelected(status) {
       this.selectedStatus = status
       this.filterProducts()
+    },
+    clearAndSort() {
+      this.filteredProductList = [...this.products]
+      this.filteredProductList.sort((a, b) => a.rank - b.rank)
     }
   }
 }
