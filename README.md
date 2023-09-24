@@ -1,6 +1,6 @@
 # Hullabalook Technical Assessment
 
-![](./Screenshot 2023-09-24 at 09.12.41.png)
+![](./readme-image.png)
 
 You are provided with a set of products and are required to create a products listing page for a footwear retailer.
 
