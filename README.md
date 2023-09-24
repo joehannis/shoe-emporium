@@ -1,5 +1,7 @@
 # Hullabalook Technical Assessment
 
+![](./Screenshot 2023-09-24 at 09.12.41.png)
+
 You are provided with a set of products and are required to create a products listing page for a footwear retailer.
 
 Write functionality and styling to:
@@ -15,6 +17,4 @@ You will be assessed on both behaviour and design. Don't spend more than 2 hours
 
 ## Instructions
 
-To start, fork [this](https://stackblitz.com/edit/vue-hulla-ta) project and set the project name to include your name. When you're finished, connect this to your GitHub account, push the changes and email the links to the repo and this project back to us.
-
-If you wish to continue past the allocated time, please create another fork.
+run ```npm install``` then ```npm run dev```. Navigate to the address show in terminal
