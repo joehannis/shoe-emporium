@@ -1,4 +1,3 @@
-# Hullabalook Technical Assessment
 
 ![](./readme-image.png)
 
